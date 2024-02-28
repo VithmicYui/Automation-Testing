@@ -1,0 +1,29 @@
+INFO  | 2024-02-04 00:34:20 | [main] steps.ECartSteps (ECartSteps.java:openECartApp:28) - Log: openECartApp
+INFO  | 2024-02-04 00:34:20 | [main] page.BasePageECart (BasePageECart.java:startECardApp:31) - Log: Open Tiki App
+INFO  | 2024-02-04 00:34:20 | [main] core.KeywordAndroid (KeywordAndroid.java:startApplication:47) - appium URL = http://127.0.0.1:4723/
+INFO  | 2024-02-04 00:34:20 | [main] core.KeywordAndroid (KeywordAndroid.java:startApplication:49) - Platform name: android
+INFO  | 2024-02-04 00:34:20 | [main] core.KeywordAndroid (KeywordAndroid.java:startApplication:52) - Platform version: 11
+INFO  | 2024-02-04 00:34:20 | [main] core.KeywordAndroid (KeywordAndroid.java:startApplication:55) - UDID: 192.168.53.102:5555
+INFO  | 2024-02-04 00:34:20 | [main] core.KeywordAndroid (KeywordAndroid.java:startApplication:58) - App package: wrteam.multivendor.customer
+INFO  | 2024-02-04 00:34:20 | [main] core.KeywordAndroid (KeywordAndroid.java:startApplication:61) - App activities: wrteam.multivendor.customer.activity.WelcomeActivity
+INFO  | 2024-02-04 00:34:29 | [main] core.KeywordAndroid (KeywordAndroid.java:startApplication:70) - Successfully start an Appium session with: 
+INFO  | 2024-02-04 00:34:29 | [main] core.KeywordAndroid (KeywordAndroid.java:startApplication:71) - Capabilities {appium:appActivity: wrteam.multivendor.customer..., appium:appPackage: wrteam.multivendor.customer, appium:automationName: uiautomator2, appium:databaseEnabled: false, appium:desired: {appActivity: wrteam.multivendor.customer..., appPackage: wrteam.multivendor.customer, automationName: uiautomator2, noReset: true, platformName: ANDROID, platformVersion: 11, udid: 192.168.53.102:5555}, appium:deviceApiLevel: 30, appium:deviceManufacturer: Genymobile, appium:deviceModel: Galaxy S9, appium:deviceName: 192.168.53.102:5555, appium:deviceScreenDensity: 560, appium:deviceScreenSize: 1440x2960, appium:deviceUDID: 192.168.53.102:5555, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:pixelRatio: 3.5, appium:platformVersion: 11, appium:statBarHeight: 84, appium:takesScreenshot: true, appium:udid: 192.168.53.102:5555, appium:viewportRect: {height: 2876, left: 0, top: 84, width: 1440}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+INFO  | 2024-02-04 00:34:29 | [main] steps.ECartSteps (ECartSteps.java:navigateToScreen:40) - Log: navigateToScreen
+INFO  | 2024-02-04 00:34:29 | [main] page.BasePageECart (BasePageECart.java:navigateToGetStarted:44) - navigateToGetStarted
+INFO  | 2024-02-04 00:34:29 | [main] page.BasePageECart (BasePageECart.java:verifyShowScreenWelcome:37) - verifyShowScreenWelcome
+INFO  | 2024-02-04 00:34:33 | [main] steps.ECartSteps (ECartSteps.java:theDefaultDeliveryLocationScreenDisplay:46) - Log: theDefaultDeliveryLocationScreenDisplay
+INFO  | 2024-02-04 00:34:33 | [main] page.BasePageECart (BasePageECart.java:verifyShowScreenLocation:87) - verifyShowScreenLocation
+INFO  | 2024-02-04 00:34:39 | [main] steps.ECartSteps (ECartSteps.java:selectLocation:53) - Log: selectLocation
+INFO  | 2024-02-04 00:34:39 | [main] page.BasePageECart (BasePageECart.java:clickToLocationAll:52) - clickToLocationAll
+INFO  | 2024-02-04 00:34:40 | [main] page.BasePageECart (BasePageECart.java:verifyShowScreenHomeECard:65) - verifyShowScreenHomeECard
+INFO  | 2024-02-04 00:36:23 | [main] steps.ECartSteps (ECartSteps.java:clickToProfileOnFooterMenu:173) - Log: clickToProfileOnFooterMenu
+INFO  | 2024-02-04 00:36:23 | [main] page.BasePageECart (BasePageECart.java:clickToProfile:82) - clickToProfile
+INFO  | 2024-02-04 00:37:24 | [main] steps.ECartSteps (ECartSteps.java:clickToWelcomeGuest:179) - Log: clickToWelcomeGuest
+INFO  | 2024-02-04 00:37:24 | [main] home.profile.PageProfile (PageProfile.java:clickToWelcomeGuest:32) - clickToWelcomeGuest
+INFO  | 2024-02-04 00:38:56 | [main] steps.ECartSteps (ECartSteps.java:clickToLoginButton:214) - Log: clickToLoginButton
+INFO  | 2024-02-04 00:38:56 | [main] home.category.PageBeverages (PageBeverages.java:clickToLogin:82) - clickToLogin
+INFO  | 2024-02-04 00:38:58 | [main] steps.ECartSteps (ECartSteps.java:clickAgainToProfileOnFooterMenu:190) - Log: click to profile
+INFO  | 2024-02-04 00:38:58 | [main] page.BasePageECart (BasePageECart.java:clickToProfile:82) - clickToProfile
+INFO  | 2024-02-04 00:39:53 | [main] steps.ECartSteps (ECartSteps.java:theProfileScreenShouldBeDisplayedWithTheUserSInformationAndOptionsToManageTheProfile:196) - Log: theProfileScreenShouldBeDisplayedWithTheUserSInformationAndOptionsToManageTheProfile
+INFO  | 2024-02-04 00:39:53 | [main] home.profile.PageProfile (PageProfile.java:verifyShowScreenPageProfile:38) - verifyShowScreenPageProfile
+INFO  | 2024-02-04 00:42:49 | [main] core.KeywordAndroid (KeywordAndroid.java:scrollDownToElement:179) - Scroll down to element
